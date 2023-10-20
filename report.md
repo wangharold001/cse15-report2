@@ -16,3 +16,9 @@ In this example, we took the same path as the previous one, with the difference 
 
 <img width="426" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/57977f6d-5233-4e2f-803f-65d5bb4bf406">
 
+# Part 2
+
+<img width="374" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/5aee606c-8cc6-463a-9aad-fb285c08e6e1">
+
+<img width="374" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/9619ed47-f719-4be1-95a6-4faf8895897c">
+
