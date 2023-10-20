@@ -5,6 +5,6 @@ I wrote the StringServer implementation under the class "SearchEngine" as it was
 
 ### Usages of "add-message":
 ### 1. "/add-message?s="hi"":
-<img width="960" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/f2932b2a-149e-435e-a308-bd6c579677de">
+<img width="250" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/f2932b2a-149e-435e-a308-bd6c579677de">
 
 
