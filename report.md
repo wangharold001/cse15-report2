@@ -22,3 +22,7 @@ In this example, we took the same path as the previous one, with the difference 
 
 <img width="374" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/9619ed47-f719-4be1-95a6-4faf8895897c">
 
+# Part 3
+
+One thing I learned this week is that I can upload images directly to GitHub from my clipboard by using Ctrl C+V. Another thing I learned is how to use Java to handle url path queries. In the past, I've usually used HTML+Python to handle weppage logic.
+
