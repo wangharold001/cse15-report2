@@ -7,4 +7,12 @@ I wrote the StringServer implementation under the class "SearchEngine" as it was
 ### 1. "/add-message?s="hi"":
 <img width="250" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/f2932b2a-149e-435e-a308-bd6c579677de">
 
+In this instance, we use the add-message path to add the string "hi" (with String quotation marks included) to the wordList. In the Handler class, we called the handleRequest method which took the "add-message" path. The program used the ArrayList class to add the String "hi" to the ARrayList<String> object wordList.
+
+### 2. "/add-message?s="""
+<img width="300" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/571c4a1b-59b3-4379-8b23-996ddc9b0094">
+
+In this example, we took the same path as the previous one, with the difference being that the String added to wordList is blank. As a result, wordList actually added the String consisting of two quotation marks instead of a blank String. Interesting!
+
+<img width="426" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/57977f6d-5233-4e2f-803f-65d5bb4bf406">
 
