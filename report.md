@@ -49,16 +49,15 @@ I wrote the StringServer implementation under the class "SearchEngine" as it was
 
 ### Usages of "add-message":
 ### 1. "/add-message?s="hi"":
-<img width="250" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/f2932b2a-149e-435e-a308-bd6c579677de">
+![image](https://github.com/wangharold001/cse15-report2/assets/60553459/3819823a-0d17-43ee-af36-726be75c7976)
 
-In this instance, we use the add-message path to add the string "hi" (with String quotation marks included) to the wordList. In the Handler class, we called the handleRequest method which took the "add-message" path. The program used the ArrayList class to add the String "hi" to the ARrayList<String> object wordList.
+In this instance, we inputted to the handleRequest method the path "add-message/s=hi". The method takes us to the add-message condition path, where we passed the parameter[0], which was "s", and then added parameter[1], the string "hi", to the wordList.  The program used the ArrayList class to add the String "hi" to the ArrayList <String> object wordList.
 
 ### 2. "/add-message?s="""
-<img width="300" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/571c4a1b-59b3-4379-8b23-996ddc9b0094">
+![image](https://github.com/wangharold001/cse15-report2/assets/60553459/812e24c2-6878-4c6c-8d4d-5437ab9100d9)
 
-In this example, we took the same path as the previous one, with the difference being that the String added to wordList is blank. As a result, wordList actually added the String consisting of two quotation marks instead of a blank String. Interesting!
-
-<img width="426" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/57977f6d-5233-4e2f-803f-65d5bb4bf406">
+We inputted to the handleRequest method the path "add-message/s=""\\". The method takes us to the add-message condition path, where we passed the parameter[0], which was "s", and then added parameter[1], the string """\\", to the wordList.  The program used the ArrayList class to add the String """\\" to the ArrayList <String> object wordList.
+In this example, we took the same path as the previous one, with the difference being that the String added to wordList is a collection of special characters. However, wordList as an ArrayList<String> accepts it as input regardless.
 
 # Part 2
 
@@ -66,7 +65,11 @@ In this example, we took the same path as the previous one, with the difference 
 
 <img width="374" alt="image" src="https://github.com/wangharold001/cse15-report2/assets/60553459/9619ed47-f719-4be1-95a6-4faf8895897c">
 
+
+Here is the path to the public and private keys on my computer:
+![image](https://github.com/wangharold001/cse15-report2/assets/60553459/964c6404-21bf-4313-857f-7f35827fa4f4)
+
 # Part 3
 
-One thing I learned this week is that I can upload images directly to GitHub from my clipboard by using Ctrl C+V. Another thing I learned is how to use Java to handle url path queries. In the past, I've usually used HTML+Python to handle weppage logic.
+One thing I learned this week is that I can upload images directly to GitHub from my clipboard by using Ctrl C+V. Another thing I learned is how to use Java to handle URL path queries. In the past, I've usually used HTML+Python to handle webpage logic.
 
